@@ -1,0 +1,44 @@
+.about-img {
+  width: 100%;
+  margin-top: 40px;
+}
+.about-img {
+  position: absolute;
+  top: -244px;
+  bottom: auto;
+  left: 2px;
+  z-index: 10;
+}
+.about-para-1 {
+  margin: 50px auto;
+}
+.dream-btn1.more-btn1 {
+  background-image: -webkit-linear-gradient(
+    left,
+    #fb525e 0%,
+    #fb6850 51%,
+    #fb525e 100%
+  );
+  background-image: linear-gradient(
+    to right,
+    #fb525e 0%,
+    #fb6850 51%,
+    #fb525e 100%
+  );
+  margin: 30px auto;
+}
+.header-about {
+  margin: 100px auto;
+}
+@media screen and (max-width: 1000px) {
+  .about-img {
+    width: 100%;
+    margin: 20rem auto;
+  }
+  .about-para-1 {
+    margin: 500px auto;
+  }
+  .header-about {
+    margin: 55px auto -46rem auto;
+  }
+}

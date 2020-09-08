@@ -1,0 +1,41 @@
+.feature-img {
+  width: 100%;
+  margin: 40px auto;
+}
+.card-feature {
+  margin: 10px auto;
+  background: transparent;
+  border: transparent;
+  box-shadow: 0px 0px 29px 6px rgba(154, 161, 171, 0.18);
+}
+
+.feature-img-1 {
+  width: 100%;
+  animation: mover 1.3s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.bub-right{
+    position: absolute;
+    right: 0px;
+    margin: 0rem auto;
+    z-index: -10;
+    width:37%;
+    
+}
+@media screen and (max-width:1000px){
+  .feature-img-1 {
+    margin: 30px auto;
+  }
+  .card-img-2{
+    width: 30%;
+  }
+}
