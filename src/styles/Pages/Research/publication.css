@@ -1,0 +1,55 @@
+.card-container p {
+  margin: 0;
+}
+.card-container > .ant-tabs-card .ant-tabs-content {
+  height: auto;
+  margin-top: -16px;
+}
+.card-container > .ant-tabs-card .ant-tabs-content > .ant-tabs-tabpane {
+  background: #fafafa;
+  padding: 16px;
+  border-bottom: 3px solid #001242;
+  border-left: 3px solid #001242;
+}
+.card-container > .ant-tabs-card > .ant-tabs-nav::before {
+  display: none;
+}
+.card-container > .ant-tabs-card .ant-tabs-tab,
+[data-theme="compact"] .card-container > .ant-tabs-card .ant-tabs-tab {
+  border: 3px solid transparent;
+  background: transparent;
+}
+.card-container > .ant-tabs-card .ant-tabs-tab-active,
+[data-theme="compact"] .card-container > .ant-tabs-card .ant-tabs-tab-active {
+  border: 3px solid #001242;
+  background: #fafafa;
+  border-bottom: none;
+}
+
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab:not(:last-of-type),
+.ant-tabs-card.ant-tabs-bottom > .ant-tabs-nav .ant-tabs-tab:not(:last-of-type),
+.ant-tabs-card.ant-tabs-top
+  > div
+  > .ant-tabs-nav
+  .ant-tabs-tab:not(:last-of-type),
+.ant-tabs-card.ant-tabs-bottom
+  > div
+  > .ant-tabs-nav
+  .ant-tabs-tab:not(:last-of-type) {
+  margin-right: 2px;
+  font-size: 18px;
+}
+
+.post-inner {
+  border-right: 3px solid #001242;
+  border-top: 3px solid #001242;
+  padding: 30px;
+}
+
+.badge {
+  font-size: 15px;
+  float: right;
+  border-bottom: 3px solid #001242;
+  border-right: 3px solid #001242;
+  cursor: none;
+}

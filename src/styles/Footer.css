@@ -1,0 +1,124 @@
+
+.footer {
+  background: #202d3b;
+  color: #fff;
+  padding-top: 40px;
+  font-size: 12px;
+  position: relative;
+  z-index: 20;
+  font-family: "Montserrat", sans-serif;
+
+}
+.footer .connect p {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.footer .btn-cta {
+  padding: 10px;
+}
+.footer .footer-col.links li {
+  margin-bottom: 7px;
+}
+.footer .footer-col.connect .social {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.footer .footer-col.connect .social li {
+  margin-right: 10px;
+}
+.footer .footer-col.connect .social li a .fa {
+  color: #fff;
+  font-size: 18px;
+}
+.footer .footer-col.connect .social li a:hover .fa {
+  color: #0094c6;
+}
+.footer .footer-col.connect .btn-cta-primary {
+  background: #001242;
+  border-color: #001242;
+}
+.footer .footer-col.connect .btn-cta-primary:hover {
+  background: #0094c6;
+  border-color: #0094c6;
+}
+.footer .footer-col .title {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+}
+.footer .footer-col p {
+  color: #fff;
+}
+.footer .footer-col a {
+  color: #fff;
+  font-size: 15px;
+  
+}
+.footer .footer-col a:hover {
+  text-decoration: underline;
+}
+.footer .footer-col .signup-form {
+  padding-left: 0;
+  padding-right: 0;
+}
+.footer .footer-col .signup-form .form-control {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+  border-radius: 0;
+}
+.footer .footer-col .signup-form .form-control:focus {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.footer .footer-col .signup-form .form-group {
+  display: inline-flex;
+}
+.footer .footer-col .signup-form .btn {
+  font-size: 14px;
+}
+.footer .contact .fa {
+  margin-right: 10px;
+  font-size: 16px;
+}
+@media (max-width: 767px) {
+  .footer-col {
+    margin-bottom: 30px;
+  }
+  .footer .footer-col .signup-form {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  .footer .footer-col .signup-form .form-control {
+    display: inline-block;
+  }
+}
+@media (min-width: 768px) {
+  .footer-col {
+    margin-bottom: 30px;
+  }
+  .footer .signup-form .form-control {
+    width: 200px;
+  }
+}
+@media (min-width: 992px) {
+  .footer .signup-form .form-control {
+    width: 280px;
+  }
+}
+.footer-col-inner li {
+  color: #fff;
+  flex: 1;
+}

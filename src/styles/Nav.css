@@ -1,0 +1,101 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+.navbar {
+  padding: 0px;
+  width: 100%;
+  z-index: 999;
+  background-color: black !important;
+  position: fixed;
+  top: 0;
+  color: #fff;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+}
+
+.navbar.active {
+  transition: all 1s;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  padding: 0px;
+}
+.ul__mheal {
+  background: transparent;
+  border: none;
+  color: white;
+  float: left !important;
+  margin: auto;
+}
+
+.ant-menu-horizontal > .ant-menu-item,
+.ant-menu-horizontal > .ant-menu-submenu {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.ant-menu-horizontal > .ant-menu-item > a {
+  color: #fff;
+}
+.logo {
+  margin: 0 auto;
+  font-weight: bold;
+  float: right;
+}
+.logo a {
+  margin: 0 auto;
+  max-width: 100px;
+}
+.logo a {
+  color: #fff;
+  /* padding: 15px 30px; */
+  display: inline-block;
+  text-align: center;
+  line-height: 2.3;
+  position: relative;
+  font-family: "Audiowide", cursive;
+
+  font-size: 30px;
+}
+.logo a:hover {
+  text-decoration: none;
+}
+
+.waviy {
+  position: relative;
+  width: max-content;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 3s infinite;
+  animation-delay: calc(0.4s * var(--i));
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
+.nav__menu__img{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+  .ul__mheal {
+    display: none;
+  }
+  .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+    border-right: 1px solid transparent;
+}
+.nav__menu__img{
+  width: 10%;
+  float: right;
+  position: absolute;
+  top: 18px;
+  right: 10px;
+  display: block  ;
+}
+}

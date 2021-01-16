@@ -1,0 +1,25 @@
+.res__wrapper {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.res__heading {
+  background-color: black;
+  padding: 50px;
+}
+.res__heading > div > h2 {
+  color: white;
+  font-family: "Montserrat";
+}
+.list-inline-item__rr {
+  color: #ffffffbd;
+  font-size: 18px;
+  font-family: "Slabo", sans-serif;
+
+}
+.mhl__subTitle{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 50px;
+    color: #26303b;
+}
