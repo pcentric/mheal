@@ -235,3 +235,23 @@
   padding-left: 24px;
   /* word-spacing: 6px; */
 }
+
+
+
+@media screen and (max-width:768px){
+  .mhl__img__phs img{ width: 100%;}
+ 
+.working-process-step {
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+.process-block {
+  position: relative;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.mhl__card{
+  margin-top: 30px;
+}
+}

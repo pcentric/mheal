@@ -13,7 +13,7 @@ export default class publications extends Component {
             <h2 class="mhl__title text-center">
               Publications and Conference Presentations
             </h2>
-            <div className="card-container">
+            <div className="card-container my-5">
               <Tabs type="card">
                 <TabPane tab="All" key="all">
                   <article

@@ -190,7 +190,7 @@ export default class HeadCTScan extends Component {
               including detection of multiple findings with the lungs, pleura,
               heart, bones and the diaphragm.
             </p>
-            <div class=" ">
+            <div class="mhl__bot__hcs">
               <div class="row mb-5">
                 <ul class="nav nav-tabs col-md-3 col-lg-5 col-sm-6 col-xs-6">
                   <li class="">

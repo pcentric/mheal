@@ -380,71 +380,6 @@ export default class Home extends Component {
                       alt="India Health Fund"
                       class="partner"
                     />
-                    <img
-                      src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                      alt="IRCCS San Raffaele"
-                      class="partner"
-                    />
-                    <img
-                      src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                      alt="London School of Hygeine &amp; Tropical Medicine"
-                      class="partner"
-                    />
-                    <img
-                      src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                      alt="MAX Healthcare"
-                      class="partner"
-                    />
-                    <a
-                      href="https://www.medicagroup.co.uk/medica-and-qure-ai-partner-to-use-artificial-intelligence-to-improve-efficiency-of-workflow-and-clinical-decision-support/"
-                      target="_blank"
-                    >
-                      <img
-                        src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                        alt="MEDICA Group"
-                        class="partner"
-                      />
-                    </a>
-                    <img
-                      src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                      alt="Mexico DF Hospitales"
-                      class="partner"
-                    />
-                    <img
-                      src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                      alt="Ministry of Health, Oman"
-                      class="partner"
-                    />
-                    <img
-                      src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                      alt="NHS UK"
-                      class="partner"
-                    />
-                    <img
-                      src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                      alt="PATH"
-                      class="partner"
-                    />
-                    <img
-                      src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                      alt="PBSP"
-                      class="partner"
-                    />
-                    <img
-                      src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                      alt="Stop TB"
-                      class="partner"
-                    />
-                    <img
-                      src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                      alt="vRad"
-                      class="partner"
-                    />
-                    <img
-                      src="https://qure.ai/assets/images/partners/distributors/blackford.png"
-                      alt="Wellcome"
-                      class="partner"
-                    />
                   </div>
                 </div>
                 <div class="carousel-item active">
@@ -500,26 +435,7 @@ export default class Home extends Component {
                           alt="Blackford"
                           class="partner"
                         />
-                        <img
-                          src="https://qure.ai/assets/images/partners/customers/vrad.png"
-                          alt="Incepto"
-                          class="partner"
-                        />
-                        <img
-                          src="https://qure.ai/assets/images/partners/customers/vrad.png"
-                          alt="Med Synaptic"
-                          class="partner"
-                        />
-                        <img
-                          src="https://qure.ai/assets/images/partners/customers/vrad.png"
-                          alt="MV"
-                          class="partner"
-                        />
-                        <img
-                          src="https://qure.ai/assets/images/partners/customers/vrad.png"
-                          alt="Nanox"
-                          class="partner"
-                        />
+
                         <a
                           href="https://whatsnext.nuance.com/healthcare/intelligence-at-work-qure-ai-applies-ai-in-radiology/"
                           target="_blank"
@@ -533,26 +449,6 @@ export default class Home extends Component {
                         <img
                           src="https://qure.ai/assets/images/partners/customers/vrad.png"
                           alt="Paxera Health"
-                          class="partner"
-                        />
-                        <img
-                          src="https://qure.ai/assets/images/partners/customers/vrad.png"
-                          alt="Phillips"
-                          class="partner"
-                        />
-                        <img
-                          src="https://qure.ai/assets/images/partners/customers/vrad.png"
-                          alt="Sectra"
-                          class="partner"
-                        />
-                        <img
-                          src="https://qure.ai/assets/images/partners/customers/vrad.png"
-                          alt="Siemens"
-                          class="partner"
-                        />
-                        <img
-                          src="https://qure.ai/assets/images/partners/customers/vrad.png"
-                          alt="Suthipri"
                           class="partner"
                         />
                       </div>
@@ -577,22 +473,22 @@ export default class Home extends Component {
           <div className="container">
             <h2 className="mhl__title text-center">Our Investors</h2>
             <br />
-            <div className="row">
-              <div class="col-md-4 col-sm-12">
+            <div className="row justify-content-center">
+              <div class="col-md-4 col-sm-12 my-3 ">
                 <img
                   src="https://qure.ai/assets/images/partners/fractalLogo.jpg"
                   alt="Columbia Asia Hospitals"
                   class="partner"
                 />
               </div>
-              <div class="col-md-4 col-sm-12">
+              <div class="col-md-4 col-sm-12 my-3 ">
                 <img
                   src="https://qure.ai/assets/images/partners/SequoiaLogo.png"
                   alt="FHI 360"
                   class="partner"
                 />
               </div>
-              <div class="col-md-4 col-sm-12">
+              <div class="col-md-4 col-sm-12 my-3 ">
                 <img
                   src="https://qure.ai/assets/images/partners/MMVLogo.png"
                   alt="FIND"
@@ -607,7 +503,6 @@ export default class Home extends Component {
             </p>
           </div>
         </section>
-   
       </div>
     );
   }

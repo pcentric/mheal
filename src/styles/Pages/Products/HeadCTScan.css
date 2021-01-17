@@ -78,3 +78,20 @@ figure img{
     font-family: "Montserrat", sans-serif;
     word-spacing: 2px;
 }
+
+@media screen and (max-width: 768px){
+  .mhl__ct h1 {
+    font-size: 25px;
+    margin-top:80px;
+    font-weight: 900;
+  }
+  .mhl__ct p {
+    font-size: 15px;
+  }
+  .mhl__bot__hcs ul li{
+    width: 50%;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    margin: 20px auto;
+  }
+}

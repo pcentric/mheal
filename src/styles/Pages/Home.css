@@ -126,6 +126,13 @@
   .section .title {
     font-size: 32px;
   }
+  .mhl__title {
+    margin-top: 50px;
+  
+  }
+  .mhl__explainer {
+    margin: 40px auto;
+  }
 }
 .carousel-indicators {
   bottom: -6em;
@@ -161,6 +168,13 @@
 @media (max-width: 768px) {
   .top-intro {
     padding: 10em 0 4em 0;
+  }
+
+  .mhl__explainer{
+    text-align: center;
+  }
+  .mhl__title{
+    text-align: center;
   }
 }
 #news-alert {

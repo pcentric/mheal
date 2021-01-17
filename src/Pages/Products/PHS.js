@@ -232,7 +232,7 @@ export default class PHS extends Component {
             </div>
           </div>
         </section>
-        <section className="container mhl__container">
+        <section className="container mhl__img__phs mhl__container">
           <div className=" my-5">
             <div className="row">
               <div className="col-md-6">

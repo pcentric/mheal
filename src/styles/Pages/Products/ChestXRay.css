@@ -169,7 +169,9 @@
   padding: 90px 0;
   border-bottom: 1px solid #eee;
 }
-
+.why{
+  margin-bottom: 100px;
+}
 .why .item .quote {
   position: relative;
 }
@@ -219,10 +221,9 @@
   margin-bottom: 0;
 }
 .source b {
-  color: #999;  
+  color: #999;
   font-size: 13px;
   font-family: "Arvo", serif;
-
 }
 /*! CSS Used from: Embedded */
 .quote-profile > .img-circle {
@@ -231,12 +232,10 @@
   border-radius: 50%;
 }
 
-
-
- .carousel-indicators {
+.carousel-indicators {
   bottom: -6em;
 }
- .carousel-indicators > li {
+.carousel-indicators > li {
   background: rgba(0, 0, 0, 0.2);
   cursor: pointer;
   height: 0;
@@ -245,4 +244,93 @@
 }
 .carousel-indicators > li.active {
   background: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+  .headertext {
+    max-width: 100%;
+    width: 100%;
+
+    text-align: center;
+  }
+  .qxr-headline-bg {
+    height: 410px;
+  }
+  .nav-tabs .nav-item .nav-link {
+    font-size: 13px !important;
+    font-family: "Slabo 13px";
+    padding: 10px !important;
+  }
+  .mhl__bot ul li{
+    width: 50%;
+    border-bottom: 2px solid #001242;
+    border-top: 2px solid #001242;
+
+    margin: 20px auto;
+  }
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: -1px;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: 1px solid #eee;
+  border-right: none;
+  border-bottom: none;
+}
+.nav-tabs .nav-item .nav-link {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-right: 0px;
+  color: #999;
+  padding: 15px 30px;
+  font-size: 14px;
+  background: #fafafa;
+  border: none;
+  border-bottom: 1px solid #eee;
+  color: #808080;
+  background: #fff;
+}
+.nav-tabs .nav-item .nav-link:hover,
+.nav-tabs .nav-item .nav-link:focus {
+  color: #666;
+}
+.nav-tabs .nav-item .nav-link.active {
+  -webkit-box-shadow: inset 0 3px 0 #ec6952;
+  -moz-box-shadow: inset 0 3px 0 #ec6952;
+  box-shadow: inset 0 3px 0 #ec6952;
+  border-bottom-color: #fff;
+  color: #ec6952;
+}
+.nav-tabs .nav-item .nav-link.active:hover {
+  color: #ec6952;
+  background: none;
+}
+.nav-tabs .nav-item .nav-link:hover {
+  background: #f5f5f5;
+}
+.nav-tabs .nav-item .nav-link.active {
+  color: #001242;
+  -webkit-box-shadow: inset 0 3px 0 #001242;
+  -moz-box-shadow: inset 0 3px 0 #001242;
+  box-shadow: inset 0 3px 0 #001242;
+}
+.nav-tabs .nav-item .nav-link.active:hover {
+  color: #001242;
+}
+.nav-tabs .nav-item .nav-link {
+  color: #202d3b;
 }

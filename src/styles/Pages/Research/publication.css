@@ -53,3 +53,17 @@
   border-right: 3px solid #001242;
   cursor: none;
 }
+
+@media screen and (max-width: 768px) {
+
+  .post-inner {
+    border-right: transparent;
+    border-top: transparent;
+    padding: 30px;
+  }
+  .card-container > .ant-tabs-card .ant-tabs-content > .ant-tabs-tabpane {
+    padding: 10px;
+    border-right: 3px solid #001242;
+
+  }
+}

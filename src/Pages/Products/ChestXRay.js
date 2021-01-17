@@ -7,7 +7,7 @@ export default class ChestXRay extends Component {
         <section>
           <div class=" headline-bg qxr-headline-bg">
             <div class="container col-md-6 headertext">
-              <h2 class="title">Automated Chest X-ray Interpretation – qXR</h2>
+              <h2 class="title">Automated Chest X-ray <br/> Interpretation – qXR</h2>
             </div>
           </div>
         </section>
@@ -45,7 +45,7 @@ export default class ChestXRay extends Component {
               <ul class="nav nav-tabs text-center" role="tablist">
                 <li class="nav-item">
                   <a
-                    class="nav-link active show"
+                    class="nav-link  active show"
                     href="#feature-1"
                     role="tab"
                     data-toggle="tab"
@@ -56,7 +56,7 @@ export default class ChestXRay extends Component {
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link"
+                    class="nav-link "
                     href="#feature-2"
                     role="tab"
                     data-toggle="tab"
@@ -67,7 +67,7 @@ export default class ChestXRay extends Component {
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link"
+                    class="nav-link "
                     href="#feature-3"
                     role="tab"
                     data-toggle="tab"
@@ -433,14 +433,14 @@ export default class ChestXRay extends Component {
           </div>
           <div className="container mt-5">
             <div className="row ">
-              <div className="col-md-5">
+              <div className="col-md-5 col-sm-12">
                 <img
                   src="https://qure.ai/assets/images/products/qxr/quantification.png"
                   alt="sample"
                   className="mhl__img"
                 />
               </div>
-              <div className="col-md-7 align-self-center">
+              <div className="col-md-7 col-sm-12 align-self-center">
                 <p className="mhl__explainer">
                   With qXR v3.0, the analytical capabilites of the algorithms go
                   a step further. Individual finding specific abnormalities
@@ -498,10 +498,10 @@ export default class ChestXRay extends Component {
         </section>
 
         <section>
-          <div className="whycontainer mhl__container container ">
+          <div className="why mhl__container container ">
             <div
               id="carouselExampleIndicators"
-              class="mhl-container carousel slide"
+              class="carousel slide"
               data-ride="carousel"
             >
               <ol class="carousel-indicators">
