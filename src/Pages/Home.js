@@ -6,12 +6,16 @@ export default class Home extends Component {
     return (
       <div>
         <div class="jumbotron top-intro">
+  
+        
+        
           <div
             id="myCarousel"
             class="carousel slide"
             data-touch="true"
             data-ride="carousel"
           >
+
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class=""></li>
               <li data-target="#myCarousel" data-slide-to="1" class=""></li>
@@ -23,7 +27,7 @@ export default class Home extends Component {
               <li data-target="#myCarousel" data-slide-to="3" class=""></li>
             </ol>
             <div class="carousel-inner">
-              <div class="carousel-item">
+              <div class="carousel-item active">
                 <div class="container">
                   <div class="row">
                     <div class="col col-12 col-md-5 align-self-center text-center text-md-left">
@@ -56,7 +60,7 @@ export default class Home extends Component {
                   </div>
                 </div>
               </div>
-              <div class="carousel-item active carousel-item-left">
+              <div class="carousel-item ">
                 <div class="container">
                   <div class="row">
                     <div class="col col-12 col-md-5 align-self-center text-center text-md-left">
@@ -89,7 +93,7 @@ export default class Home extends Component {
                   </div>
                 </div>
               </div>
-              <div class="carousel-item carousel-item-next carousel-item-left">
+              <div class="carousel-item ">
                 <div class="container">
                   <div class="row">
                     <div class="col col-12 col-md-5 align-self-center text-center text-md-left">
@@ -160,6 +164,7 @@ export default class Home extends Component {
                 </div>
               </div>
             </div>
+            
             <a
               class="carousel-control-prev"
               href="#myCarousel"
