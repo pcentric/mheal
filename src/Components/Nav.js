@@ -85,6 +85,9 @@ export default class Nav extends Component {
                 <Menu.Item key="TuberCulosis">
                   <Link to="/TB">TuberCulosis</Link>
                 </Menu.Item>
+                <Menu.Item key="Covid-19">
+                  <Link to="/Covid_19">Covid-19</Link>
+                </Menu.Item>
               </Menu.ItemGroup>
             </SubMenu>
             <SubMenu key="SubMenu__2" title="Research">

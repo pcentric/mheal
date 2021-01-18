@@ -11,6 +11,7 @@ import PHS from "./Pages/Products/PHS";
 import TB from "./Pages/Products/TB";
 import highlights from "./Pages/Research/highlights";
 import publications from "./Pages/Research/publications";
+import Covid from "./Pages/Products/Covid";
 
 function App() {
   return (
@@ -27,9 +28,7 @@ function App() {
           <Route path="/TB" component={TB}/>
           <Route path="/highlights" component={highlights}/>
           <Route path="/publications" component={publications}/>
-
-
-
+          <Route path="/Covid_19" component={Covid}/>
         </Switch>
       </React.Fragment>
       <Footer />  

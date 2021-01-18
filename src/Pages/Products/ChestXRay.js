@@ -91,7 +91,7 @@ export default class ChestXRay extends Component {
                       <img
                         src="https://qure.ai/assets/images/products/qxr/workflow.png"
                         alt="sample"
-                        className="mhl__img"
+                        className="CR__img"
                       />
                     </div>
                     <div className="col-md-8">
@@ -123,7 +123,7 @@ export default class ChestXRay extends Component {
                       <img
                         src="https://qure.ai/assets/images/products/qxr/pre_read_assistance.png"
                         alt="sample"
-                        className="mhl__img"
+                        className="CR__img"
                       />
                     </div>
                     <div className="col-md-8">
@@ -158,7 +158,7 @@ export default class ChestXRay extends Component {
                       <img
                         src="https://qure.ai/assets/images/products/qxr/reporting_assistance.png"
                         alt="sample"
-                        className="mhl__img"
+                        className="CR__img"
                       />
                     </div>
                     <div className="col-md-8">
@@ -306,7 +306,7 @@ export default class ChestXRay extends Component {
                           <img
                             src="https://qure.ai/assets/images/products/qxr/qxr_abnormalities/nodule.png"
                             alt=" profile "
-                            class="img-responsive"
+                            class="CR__img"
                           />
                         </div>
                         <div class="profile-details">
@@ -326,7 +326,7 @@ export default class ChestXRay extends Component {
                           <img
                             src="https://qure.ai/assets/images/products/qxr/qxr_abnormalities/multiple_opacities.png"
                             alt=" profile "
-                            class="img-responsive"
+                            class="CR__img"
                           />
                         </div>
                         <div class="profile-details">
@@ -346,7 +346,7 @@ export default class ChestXRay extends Component {
                           <img
                             src="https://qure.ai/assets/images/products/qxr/qxr_abnormalities/cavity.png"
                             alt=" profile "
-                            class="img-responsive"
+                            class="CR__img"
                           />
                         </div>
                         <div class="profile-details">
@@ -366,7 +366,7 @@ export default class ChestXRay extends Component {
                           <img
                             src="https://qure.ai/assets/images/products/qxr/qxr_abnormalities/consolidation.png"
                             alt=" profile "
-                            class="img-responsive"
+                            class="CR__img"
                           />
                         </div>
                         <div class="profile-details">
@@ -386,7 +386,7 @@ export default class ChestXRay extends Component {
                           <img
                             src="https://qure.ai/assets/images/products/qxr/qxr_abnormalities/fibrosis.png"
                             alt=" profile "
-                            class="img-responsive"
+                            class="CR__img"
                           />
                         </div>
                         <div class="profile-details">
@@ -406,7 +406,7 @@ export default class ChestXRay extends Component {
                           <img
                             src="https://qure.ai/assets/images/products/qxr/qxr_abnormalities/blunted_cp.png"
                             alt=" profile "
-                            class="img-responsive"
+                            class="CR__img"
                           />
                         </div>
                         <div class="profile-details">
